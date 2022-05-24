@@ -1,11 +1,10 @@
 body header {
   background-image: url("../images/banner1.jpg");
-  background-color: #ffffff;
-  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.8117647059);
   background-size: cover;
+  background-blend-mode: color;
   background-repeat: no-repeat;
   height: 125vh;
-  box-shadow: inset 2000px 2000px 100px rgba(0, 0, 0, 0.8117647059);
 }
 body header nav {
   text-align: center;
@@ -78,7 +77,7 @@ body .section1 {
   height: 300vh;
 }
 body .section1 .section1div1 {
-  height: 210vh;
+  height: 220vh;
   margin-top: 10%;
   background-image: url(../images/box-left-top.png), url(../images/box-right-top.png), url(../images/box-bottom-left.png), url(../images/box-bottom_right.png);
   background-position: top left, top right, bottom left, bottom right;
