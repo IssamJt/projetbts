@@ -1,0 +1,143 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body header {
+    height: 95vh;
+  }
+  body header nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  body header nav ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0%;
+    height: 20vh;
+  }
+  body header nav ul li {
+    width: 30%;
+  }
+  body header nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  body header nav img {
+    width: 30%;
+  }
+  body header .carousel {
+    height: 50vh;
+    margin-top: 15%;
+  }
+  body header .carousel .carousel-indicators button {
+    width: 5%;
+    height: 3vh;
+    border-radius: 50%;
+  }
+  body header .carousel .carousel-indicators button.active {
+    width: 3%;
+    height: 1.8vh;
+    border-radius: 50%;
+    border: 0.4vh solid white;
+    background-clip: content-box;
+    padding: 0.2rem;
+    margin-top: 1.5%;
+  }
+  body .section1 {
+    height: 390vh;
+  }
+  body .section1 .section1div1 {
+    height: 370vh;
+  }
+  body .section1 .section1div1 .section1div11 p {
+    width: 60%;
+  }
+  body .section1 .section1div1 .section1divmenu {
+    padding: 0;
+  }
+  body .div-list {
+    border-left: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body header {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+  body header nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  body header nav ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0%;
+    height: 20vh;
+  }
+  body header nav ul li {
+    width: 30%;
+  }
+  body header nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  body header nav img {
+    width: 30%;
+    margin: 10% auto;
+  }
+  body header .carousel {
+    margin-top: 40%;
+    height: 55vh;
+  }
+  body header .carousel .carousel-indicators button {
+    width: 10%;
+    height: 3vh;
+    border-radius: 50%;
+  }
+  body header .carousel .carousel-indicators button.active {
+    width: 5%;
+    height: 1.5vh;
+    border-radius: 50%;
+    border: 0.4vh solid white;
+    background-clip: content-box;
+    padding: 0.2rem;
+    margin-top: 4.2%;
+  }
+  body .section1 {
+    height: 500vh;
+  }
+  body .section1 .section1div1 {
+    height: 490vh;
+  }
+  body .section1 .section1div1 .section1div11 {
+    margin-top: 5%;
+  }
+  body .section1 .section1div1 .section1div11 p {
+    width: 100%;
+  }
+  body .section1 .section1div1 .section1divmenu {
+    padding: 0;
+    width: 90%;
+    margin: 0;
+  }
+  body .section1 .section1div1 .section1divmenu .menubouffe {
+    margin-left: 10%;
+    margin-top: 30%;
+  }
+  body .section1 .section1div1 .section1divmenu .menubouffe hr {
+    display: none;
+  }
+  body .div-list {
+    border-left: none;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

@@ -21,6 +21,14 @@ body header nav ul {
 body header nav ul li {
   width: 25%;
 }
+body header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+body header nav ul li :hover {
+  text-decoration: none;
+  color: white;
+}
 body header nav ul :hover {
   background-color: red;
 }
@@ -74,7 +82,7 @@ body header .carousel .carousel-indicators button.active {
 body .section1 {
   background-image: url("../images/main_bg.jpg");
   background-position: center;
-  height: 300vh;
+  height: 230vh;
 }
 body .section1 .section1div1 {
   height: 220vh;
@@ -109,6 +117,14 @@ body .section1 .section1div1 .section1div12 h1 .colorred {
 body .section1 .section1div1 .section1divmenu {
   padding-right: 40px;
   margin-top: 5%;
+}
+body .section2 .section2div1 {
+  font-family: segoe print;
+  color: white;
+}
+body .section2 .section2div1 .colorred {
+  font-size: 130%;
+  color: red;
 }
 
 .list-menu a:hover {
