@@ -1,0 +1,154 @@
+body header {
+  background-image: url("../images/banner1.jpg");
+  background-color: #ffffff;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 125vh;
+  box-shadow: inset 2000px 2000px 100px rgba(0, 0, 0, 0.8117647059);
+}
+body header nav {
+  text-align: center;
+  position: fixed;
+  top: 5%;
+}
+body header nav ul {
+  gap: 10%;
+  list-style: none;
+  width: 40%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+body header nav ul li {
+  width: 25%;
+}
+body header nav ul :hover {
+  background-color: red;
+}
+body header .carousel {
+  height: 90vh;
+  margin-top: 10%;
+}
+body header .carousel .headerdiv1 {
+  margin-top: 7%;
+}
+body header .carousel .headerdiv1 .headerdivtxt {
+  font-family: segoe print;
+}
+body header .carousel .headerdiv1 .headerdivtxt .fwgrn {
+  font-size: 130%;
+}
+body header .carousel .headerdiv1 .headerdivtxt .colorred {
+  font-size: 130%;
+  color: red;
+}
+body header .carousel .headerdiv1 .headerdivtxt .fwgrn2 {
+  font-size: 125%;
+}
+body header .carousel .headerdiv1 .headerdivbutton .btn1 {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.7% 2%;
+  border: none;
+}
+body header .carousel .headerdiv1 .headerdivbutton .btn2 {
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  padding: 0.7% 2%;
+  border: none;
+}
+body header .carousel .carousel-indicators button {
+  width: 1.5%;
+  height: 1.8vh;
+  border-radius: 50%;
+}
+body header .carousel .carousel-indicators button.active {
+  width: 0.5%;
+  height: 0.7vh;
+  border-radius: 50%;
+  border: 0.4vh solid white;
+  background-clip: content-box;
+  padding: 0.2rem;
+  margin-top: 0.7%;
+}
+body .section1 {
+  background-image: url("../images/main_bg.jpg");
+  background-position: center;
+  height: 300vh;
+}
+body .section1 .section1div1 {
+  height: 210vh;
+  margin-top: 10%;
+  background-image: url(../images/box-left-top.png), url(../images/box-right-top.png), url(../images/box-bottom-left.png), url(../images/box-bottom_right.png);
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat;
+  border: 0.1rem solid gray;
+  padding-top: 10%;
+}
+body .section1 .section1div1 .section1div11 h1 {
+  margin-bottom: -0.5%;
+}
+body .section1 .section1div1 .section1div11 h1 .colorred {
+  font-size: 130%;
+  color: red;
+}
+body .section1 .section1div1 .section1div11 p {
+  width: 40%;
+  text-align: center;
+}
+body .section1 .section1div1 .section1div12 {
+  padding-top: 5%;
+}
+body .section1 .section1div1 .section1div12 h1 {
+  margin-bottom: -0.5%;
+}
+body .section1 .section1div1 .section1div12 h1 .colorred {
+  font-size: 130%;
+  color: red;
+}
+body .section1 .section1div1 .section1divmenu {
+  padding-right: 40px;
+  margin-top: 5%;
+}
+
+.list-menu a:hover {
+  border-right: solid 5px red !important;
+  background-color: transparent;
+}
+.list-menu a {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid gray !important;
+  background-color: transparent !important;
+  width: 110%;
+}
+.list-menu a i {
+  font-size: 3.1rem;
+  color: #ccc;
+}
+.list-menu a i:hover {
+  font-size: 3.1rem;
+  color: red;
+}
+
+.prix {
+  background-color: #ccc;
+  color: red;
+  text-align: center;
+}
+
+.div-list {
+  text-align: center;
+  border-left: 1px solid #ccc;
+}
+.div-list div p {
+  font-size: 1rem;
+}
+
+.img-mult {
+  margin-left: 15% !important;
+}
+
+/*# sourceMappingURL=style.css.map */
