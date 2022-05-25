@@ -34,19 +34,20 @@ body header nav ul :hover {
 body header .carousel {
   height: 85vh;
   margin-top: 10%;
+  font-family: "Courgette", cursive;
 }
 body header .carousel .headerdiv1 {
   margin-top: 7%;
 }
 body header .carousel .headerdiv1 .headerdivtxt {
-  font-family: segoe print;
+  font-family: "Courgette" cursive;
 }
 body header .carousel .headerdiv1 .headerdivtxt .fwgrn {
   font-size: 130%;
 }
 body header .carousel .headerdiv1 .headerdivtxt .colorred {
   font-size: 130%;
-  color: red;
+  color: #c42d40;
 }
 body header .carousel .headerdiv1 .headerdivtxt .fwgrn2 {
   font-size: 125%;
@@ -58,7 +59,7 @@ body header .carousel .headerdiv1 .headerdivbutton .btn1 {
   border: none;
 }
 body header .carousel .headerdiv1 .headerdivbutton .btn2 {
-  background-color: red;
+  background-color: #c42d40;
   color: white;
   border-radius: 20px;
   padding: 0.7% 2%;
@@ -94,10 +95,11 @@ body .section1 .section1div1 {
 }
 body .section1 .section1div1 .section1div11 h1 {
   margin-bottom: -0.5%;
+  font-family: "Courgette", cursive;
 }
 body .section1 .section1div1 .section1div11 h1 .colorred {
   font-size: 130%;
-  color: red;
+  color: #c42d40;
 }
 body .section1 .section1div1 .section1div11 p {
   width: 40%;
@@ -108,22 +110,58 @@ body .section1 .section1div1 .section1div12 {
 }
 body .section1 .section1div1 .section1div12 h1 {
   margin-bottom: -0.5%;
+  font-family: "Courgette", cursive;
 }
 body .section1 .section1div1 .section1div12 h1 .colorred {
   font-size: 130%;
-  color: red;
+  color: #c42d40;
 }
 body .section1 .section1div1 .section1divmenu {
   padding-right: 40px;
   margin-top: 5%;
 }
+body .section1 .section1div1 .section1divmenu .list-menu a:hover {
+  border-right: solid 5px red !important;
+  background-color: transparent;
+}
+body .section1 .section1div1 .section1divmenu .list-menu a {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid gray !important;
+  background-color: transparent !important;
+  width: 110%;
+}
+body .section1 .section1div1 .section1divmenu .list-menu a i {
+  font-size: 3.1rem;
+  color: #ccc;
+}
+body .section1 .section1div1 .section1divmenu .list-menu a i:hover {
+  font-size: 3.1rem;
+  color: red;
+}
+body .section1 .section1div1 .section1divmenu .prix {
+  background-color: #ccc;
+  color: red;
+  text-align: center;
+}
+body .section1 .section1div1 .section1divmenu .div-list {
+  text-align: center;
+  border-left: 1px solid #ccc;
+}
+body .section1 .section1div1 .section1divmenu .div-list div p {
+  font-size: 1rem;
+}
+body .section1 .section1div1 .section1divmenu .img-mult {
+  margin-left: 15% !important;
+}
 body .section2 .section2div1 {
-  font-family: segoe print;
+  font-family: "Courgette", cursive;
   color: white;
 }
 body .section2 .section2div1 .colorred {
   font-size: 130%;
-  color: red;
+  color: #c42d40;
 }
 body .section3 {
   background-image: url("../images/main_bg.jpg");
@@ -141,10 +179,11 @@ body .section3 .section3div1 {
 }
 body .section3 .section3div1 .section3div11 h1 {
   margin-bottom: -0.5%;
+  font-family: "Courgette", cursive;
 }
 body .section3 .section3div1 .section3div11 h1 .colorred {
   font-size: 130%;
-  color: red;
+  color: #c42d40;
 }
 body .section3 .section3div1 .section3div12 {
   height: 70vh;
@@ -214,22 +253,23 @@ body .section3 .section3div1 .section3div13 {
   top: 80%;
 }
 body .section3 .section3div1 .section3div13 .btnrouge {
-  background-color: red;
+  background-color: #c42d40;
   border-radius: 20px;
 }
 body .section3 .section3div1 .section3div14 h1 {
   margin-bottom: -0.5%;
+  font-family: "Courgette", cursive;
 }
 body .section3 .section3div1 .section3div14 h1 .colorred {
   font-size: 130%;
-  color: red;
+  color: #c42d40;
 }
 body .section3 .section3div1 .section3div15 .card12 .c1 img {
   border-radius: 10px;
   border: 0.5vh solid #dcd8d8;
 }
 body .section3 .section3div1 .section3div15 .card12 .c1 .bgrouge {
-  background-color: red;
+  background-color: #c42d40;
   color: white;
   border-radius: 10px;
   top: 85%;
@@ -240,7 +280,7 @@ body .section3 .section3div1 .section3div15 .card12 .c1 .bgrouge .chiffregrn {
   font-weight: bolder;
 }
 body .section3 .section3div1 .section3div15 .btnrouge button {
-  background-color: red;
+  background-color: #c42d40;
   border-radius: 20px;
   color: white;
 }
@@ -251,10 +291,11 @@ body .section4 {
 }
 body .section4 .section4div11 h1 {
   margin-bottom: -0.5%;
+  font-family: "Courgette", cursive;
 }
 body .section4 .section4div11 h1 .colorred {
   font-size: 130%;
-  color: red;
+  color: #c42d40;
 }
 body .section4 .section4div12 .images img {
   border: 0.5vh solid white;
@@ -270,14 +311,15 @@ body .section5 {
 }
 body .section5 .section5div11 h1 {
   margin-bottom: -0.5%;
+  font-family: "Courgette", cursive;
 }
 body .section5 .section5div11 h1 .colorred {
   font-size: 130%;
-  color: red;
+  color: #c42d40;
 }
 body .section5 .contactrose {
   border-radius: 10px;
-  background-color: red;
+  background-color: #c42d40;
 }
 body .section5 .contactrose i {
   font-size: 2.5rem;
@@ -285,59 +327,21 @@ body .section5 .contactrose i {
 body footer {
   background-image: url("../images/footer_background.jpg");
   background-size: cover;
-  height: 40vh;
+  height: 45vh;
 }
 body footer .footerdiv1 i {
   font-size: 1.5rem;
 }
 body footer .footerdiv3 .btnrouge button {
-  background-color: red;
+  background-color: #c42d40;
   border-radius: 20px;
   color: white;
-  padding: 1% 1%;
+  padding: 1% 3%;
+  border: 0.2vh solid white;
 }
 body .rouge {
-  background-color: red;
+  background-color: #c42d40;
   height: 15vh;
-}
-
-.list-menu a:hover {
-  border-right: solid 5px red !important;
-  background-color: transparent;
-}
-.list-menu a {
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  border-bottom: 1px solid gray !important;
-  background-color: transparent !important;
-  width: 110%;
-}
-.list-menu a i {
-  font-size: 3.1rem;
-  color: #ccc;
-}
-.list-menu a i:hover {
-  font-size: 3.1rem;
-  color: red;
-}
-
-.prix {
-  background-color: #ccc;
-  color: red;
-  text-align: center;
-}
-
-.div-list {
-  text-align: center;
-  border-left: 1px solid #ccc;
-}
-.div-list div p {
-  font-size: 1rem;
-}
-
-.img-mult {
-  margin-left: 15% !important;
 }
 
 /*# sourceMappingURL=style.css.map */
