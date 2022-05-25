@@ -149,16 +149,16 @@
     border: 0.1vh solid white;
     border-radius: 10px;
   }
+  body footer {
+    background-image: url("../images/footer_background.jpg");
+    background-size: cover;
+    height: 150vh;
+  }
   body .div-list {
     border-left: none;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  body {
-    background-image: url("../images/footer_background.jpg");
-    background-size: cover;
-    height: 90vh;
-  }
   body header {
     height: 150vh;
     display: flex;
@@ -307,6 +307,11 @@
   body .section4 .section4div12 .section4divtxt {
     border: 0.1vh solid white;
     border-radius: 10px;
+  }
+  body footer {
+    background-image: url("../images/footer_background.jpg");
+    background-size: cover;
+    height: 310vh;
   }
   body .div-list {
     border-left: none;
