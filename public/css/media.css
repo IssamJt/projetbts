@@ -154,6 +154,12 @@
     background-size: cover;
     height: 150vh;
   }
+  body footer .footerdiv3 .btnrouge button {
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    padding: 2% 2%;
+  }
   body .div-list {
     border-left: none;
   }
@@ -312,6 +318,12 @@
     background-image: url("../images/footer_background.jpg");
     background-size: cover;
     height: 310vh;
+  }
+  body footer .footerdiv3 .btnrouge button {
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    padding: 2% 2%;
   }
   body .div-list {
     border-left: none;
