@@ -8,7 +8,6 @@ body header {
 }
 body header nav {
   text-align: center;
-  position: fixed;
   top: 5%;
 }
 body header nav ul {
@@ -33,7 +32,7 @@ body header nav ul :hover {
   background-color: red;
 }
 body header .carousel {
-  height: 90vh;
+  height: 85vh;
   margin-top: 10%;
 }
 body header .carousel .headerdiv1 {
@@ -71,10 +70,10 @@ body header .carousel .carousel-indicators button {
   border-radius: 50%;
 }
 body header .carousel .carousel-indicators button.active {
+  border: 0.4vh solid white;
   width: 0.5%;
   height: 0.7vh;
   border-radius: 50%;
-  border: 0.4vh solid white;
   background-clip: content-box;
   padding: 0.2rem;
   margin-top: 0.7%;
@@ -125,6 +124,171 @@ body .section2 .section2div1 {
 body .section2 .section2div1 .colorred {
   font-size: 130%;
   color: red;
+}
+body .section3 {
+  background-image: url("../images/main_bg.jpg");
+  background-position: center;
+  height: 230vh;
+  padding: 5%;
+}
+body .section3 .section3div1 {
+  height: 200vh;
+  background-image: url(../images/box-left-top-grey.png), url(../images/box-right-top-grey.png), url(../images/box-bottom-left-grey.png), url(../images/box-bottom_right-grey.png);
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat;
+  border: 0.1rem solid gray;
+  padding-top: 5%;
+}
+body .section3 .section3div1 .section3div11 h1 {
+  margin-bottom: -0.5%;
+}
+body .section3 .section3div1 .section3div11 h1 .colorred {
+  font-size: 130%;
+  color: red;
+}
+body .section3 .section3div1 .section3div12 {
+  height: 70vh;
+}
+body .section3 .section3div1 .section3div12 p {
+  top: 10%;
+  font-size: 130%;
+}
+body .section3 .section3div1 .section3div12 p .numbersize {
+  font-size: 130%;
+}
+body .section3 .section3div1 .section3div12 .input1 {
+  top: 25%;
+}
+body .section3 .section3div1 .section3div12 .input1 .input11 {
+  border-radius: 10px;
+  border: none;
+}
+body .section3 .section3div1 .section3div12 .input1 .input12 {
+  border-radius: 10px;
+  border: none;
+}
+body .section3 .section3div1 .section3div12 .input2 {
+  top: 36%;
+}
+body .section3 .section3div1 .section3div12 .input2 .input21 {
+  border-radius: 10px;
+  border: none;
+}
+body .section3 .section3div1 .section3div12 .input2 .input22 {
+  border-radius: 10px;
+  border: none;
+  width: 33.5%;
+}
+body .section3 .section3div1 .section3div12 .input3 {
+  top: 47%;
+}
+body .section3 .section3div1 .section3div12 .input3 .input31 {
+  border-radius: 10px;
+  border: none;
+}
+body .section3 .section3div1 .section3div12 .input3 .input32 {
+  border-radius: 10px;
+  border: none;
+}
+body .section3 .section3div1 .section3div12 .input4 {
+  top: 58%;
+}
+body .section3 .section3div1 .section3div12 .input4 .input41 {
+  border-radius: 10px;
+  border: none;
+  width: 33.5%;
+}
+body .section3 .section3div1 .section3div12 .input4 .input42 {
+  border-radius: 10px;
+  border: none;
+  width: 33.5%;
+}
+body .section3 .section3div1 .section3div12 img {
+  width: 100%;
+  height: 70vh;
+  border-radius: 20px;
+  position: absolute;
+  left: 0%;
+}
+body .section3 .section3div1 .section3div13 {
+  top: 80%;
+}
+body .section3 .section3div1 .section3div13 .btnrouge {
+  background-color: red;
+  border-radius: 20px;
+}
+body .section3 .section3div1 .section3div14 h1 {
+  margin-bottom: -0.5%;
+}
+body .section3 .section3div1 .section3div14 h1 .colorred {
+  font-size: 130%;
+  color: red;
+}
+body .section3 .section3div1 .section3div15 .card12 .c1 img {
+  border-radius: 10px;
+  border: 0.5vh solid #dcd8d8;
+}
+body .section3 .section3div1 .section3div15 .card12 .c1 .bgrouge {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  top: 85%;
+  left: 10%;
+}
+body .section3 .section3div1 .section3div15 .card12 .c1 .bgrouge .chiffregrn {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+body .section3 .section3div1 .section3div15 .btnrouge button {
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+}
+body .section4 {
+  background-image: url("../images/testimonials_background.jpg");
+  background-size: 150%;
+  height: 55vh;
+}
+body .section4 .section4div11 h1 {
+  margin-bottom: -0.5%;
+}
+body .section4 .section4div11 h1 .colorred {
+  font-size: 130%;
+  color: red;
+}
+body .section4 .section4div12 .images img {
+  border: 0.5vh solid white;
+}
+body .section4 .section4div12 .section4divtxt {
+  border: 0.1vh solid white;
+  border-radius: 10px;
+}
+body .section5 {
+  background-image: url("../images/main_bg.jpg");
+  background-position: center;
+  height: 90vh;
+}
+body .section5 .section5div11 h1 {
+  margin-bottom: -0.5%;
+}
+body .section5 .section5div11 h1 .colorred {
+  font-size: 130%;
+  color: red;
+}
+body .section5 .contactrose {
+  border-radius: 10px;
+  background-color: red;
+}
+body .section5 .contactrose i {
+  font-size: 2.5rem;
+}
+body footer {
+  background-image: url("../images/footer_background.jpg");
+  background-size: cover;
+  height: 40vh;
+}
+body footer .footerdiv1 i {
+  font-size: 1.5rem;
 }
 
 .list-menu a:hover {

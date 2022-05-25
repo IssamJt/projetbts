@@ -57,6 +57,98 @@
   body .section1 .section1div1 .section1divmenu {
     padding: 0;
   }
+  body .section3 {
+    height: 215vh;
+  }
+  body .section3 .section3div1 .section3div12 {
+    height: 70vh;
+  }
+  body .section3 .section3div1 .section3div12 p {
+    top: 10%;
+    font-size: 130%;
+  }
+  body .section3 .section3div1 .section3div12 p .numbersize {
+    font-size: 130%;
+  }
+  body .section3 .section3div1 .section3div12 .input1 {
+    top: 25%;
+  }
+  body .section3 .section3div1 .section3div12 .input1 .input11 {
+    border-radius: 10px;
+    border: none;
+  }
+  body .section3 .section3div1 .section3div12 .input1 .input12 {
+    border-radius: 10px;
+    border: none;
+  }
+  body .section3 .section3div1 .section3div12 .input2 {
+    top: 36%;
+  }
+  body .section3 .section3div1 .section3div12 .input2 .input21 {
+    border-radius: 10px;
+    border: none;
+  }
+  body .section3 .section3div1 .section3div12 .input2 .input22 {
+    border-radius: 10px;
+    border: none;
+    width: 42%;
+  }
+  body .section3 .section3div1 .section3div12 .input3 {
+    top: 47%;
+  }
+  body .section3 .section3div1 .section3div12 .input3 .input31 {
+    border-radius: 10px;
+    border: none;
+  }
+  body .section3 .section3div1 .section3div12 .input3 .input32 {
+    border-radius: 10px;
+    border: none;
+  }
+  body .section3 .section3div1 .section3div12 .input4 {
+    top: 58%;
+  }
+  body .section3 .section3div1 .section3div12 .input4 .input41 {
+    border-radius: 10px;
+    border: none;
+    width: 42%;
+  }
+  body .section3 .section3div1 .section3div12 .input4 .input42 {
+    border-radius: 10px;
+    border: none;
+    width: 42%;
+  }
+  body .section3 .section3div1 .section3div12 img {
+    width: 100%;
+    height: 70vh;
+    border-radius: 20px;
+    position: absolute;
+    left: 0%;
+  }
+  body .section3 .section3div1 .section3div13 {
+    top: 80%;
+  }
+  body .section3 .section3div1 .section3div13 .btnrouge {
+    background-color: red;
+    border-radius: 20px;
+  }
+  body .section3 .section3div1 .section3div15 .card12 .c1 .bgrouge {
+    top: 90%;
+    left: 0;
+  }
+  body .section4 {
+    height: 175vh;
+    background-position: cover;
+  }
+  body .section4 .section4div11 h1 {
+    margin-bottom: -0.5%;
+  }
+  body .section4 .section4div12 .images img {
+    border: 0.5vh solid white;
+  }
+  body .section4 .section4div12 .section4divtxt {
+    border: 0.1vh solid white;
+    border-radius: 10px;
+  }
   body .div-list {
     border-left: none;
   }
@@ -134,6 +226,82 @@
   }
   body .section1 .section1div1 .section1divmenu .menubouffe hr {
     display: none;
+  }
+  body .section3 {
+    height: 290vh;
+    padding-top: 5vh;
+  }
+  body .section3 .section3div1 {
+    height: 280vh;
+  }
+  body .section3 .section3div1 .section3div11 {
+    margin-top: 30%;
+  }
+  body .section3 .section3div1 .section3div12 {
+    height: 85vh;
+  }
+  body .section3 .section3div1 .section3div12 p {
+    top: 10%;
+    font-size: 100%;
+  }
+  body .section3 .section3div1 .section3div12 p .numbersize {
+    font-size: 130%;
+  }
+  body .section3 .section3div1 .section3div12 .input1 {
+    top: 27%;
+  }
+  body .section3 .section3div1 .section3div12 .input2 {
+    top: 41.5%;
+  }
+  body .section3 .section3div1 .section3div12 .input2 .input22 {
+    width: 57.5%;
+    padding: 0.3% 0;
+  }
+  body .section3 .section3div1 .section3div12 .input3 {
+    top: 56.5%;
+  }
+  body .section3 .section3div1 .section3div12 .input4 {
+    top: 71.5%;
+  }
+  body .section3 .section3div1 .section3div12 .input4 .input41 {
+    width: 57.5%;
+    padding: 0.3% 0;
+  }
+  body .section3 .section3div1 .section3div12 .input4 .input42 {
+    width: 57.5%;
+    padding: 0.3% 0;
+  }
+  body .section3 .section3div1 .section3div12 img {
+    width: 100%;
+    height: 85vh;
+    border-radius: 20px;
+    position: absolute;
+    left: 0%;
+  }
+  body .section3 .section3div1 .section3div13 {
+    top: 88%;
+  }
+  body .section3 .section3div1 .section3div15 .card12 .c1 .bgrouge {
+    top: 100%;
+    left: 0;
+    height: 12vh;
+  }
+  body .section3 .section3div1 .section3div15 .card12 .c1 .p {
+    margin-top: 20%;
+  }
+  body .section4 {
+    height: 175vh;
+    background-position: cover;
+  }
+  body .section4 .section4div11 h1 {
+    margin-bottom: -0.5%;
+  }
+  body .section4 .section4div12 .images img {
+    border: 0.5vh solid white;
+  }
+  body .section4 .section4div12 .section4divtxt {
+    border: 0.1vh solid white;
+    border-radius: 10px;
   }
   body .div-list {
     border-left: none;
