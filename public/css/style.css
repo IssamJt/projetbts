@@ -9,6 +9,7 @@ body header {
 body header nav {
   text-align: center;
   top: 5%;
+  position: fixed;
 }
 body header nav ul {
   gap: 10%;
