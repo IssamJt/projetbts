@@ -290,6 +290,11 @@ body footer {
 body footer .footerdiv1 i {
   font-size: 1.5rem;
 }
+body footer .footerdiv3 .btnrouge button {
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+}
 
 .list-menu a:hover {
   border-right: solid 5px red !important;
