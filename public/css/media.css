@@ -154,6 +154,11 @@
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    background-image: url("../images/footer_background.jpg");
+    background-size: cover;
+    height: 90vh;
+  }
   body header {
     height: 150vh;
     display: flex;

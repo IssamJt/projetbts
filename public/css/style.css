@@ -294,6 +294,7 @@ body footer .footerdiv3 .btnrouge button {
   background-color: red;
   border-radius: 20px;
   color: white;
+  padding: 1% 1%;
 }
 
 .list-menu a:hover {
